@@ -1,0 +1,15 @@
+# https://rust-lang.github.io/rustfmt/
+tab_spaces                 = 2
+fn_call_width              = 100
+max_width                  = 120
+imports_granularity        = "One"
+imports_layout             = "Vertical"
+group_imports              = "StdExternalCrate"
+reorder_impl_items         = true
+reorder_modules            = true
+overflow_delimited_expr    = true
+use_field_init_shorthand   = true
+use_try_shorthand          = true
+wrap_comments              = false
+condense_wildcard_suffixes = true
+match_block_trailing_comma = true

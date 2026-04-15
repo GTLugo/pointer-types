@@ -1,0 +1,20 @@
+[package]
+name        = "mouse-types"
+description = "Contains types to define mouse related events."
+version     = "0.4.0"
+edition     = "2024"
+authors     = ["Gabriel A. Lugo-Maldonado <gt@lugo.studio>"]
+license     = "MIT OR Apache-2.0"
+keywords    = ["event", "input", "pointer", "mouse"]
+# categories  = ["data-structures", "concurrency"]
+repository  = "https://github.com/GTLugo/pointer-types"
+
+[features]
+default = []
+std     = []
+serde   = ["dep:serde", "keyboard-types/serde"]
+
+[dependencies]
+serde = { version = "1.0", optional = true }
+keyboard-types = "0.8"
+dpi = "0.1"
